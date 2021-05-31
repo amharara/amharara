@@ -1,0 +1,8 @@
+#using applicant tracking system software to improve my resume 
+pip install docx2txt
+
+# Import the library
+import docx2txt
+
+# Load the data 
+uploaded = files.upload()
