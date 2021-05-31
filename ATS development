@@ -4,5 +4,6 @@ pip install docx2txt
 # Import the library
 import docx2txt
 
-# Load the data 
-uploaded = files.upload()
+# Load the resume of the applicant  
+resume = docx2txt.process("developer.resume.docx")
+print(resume)
