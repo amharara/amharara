@@ -6,4 +6,12 @@ import docx2txt
 
 # Load the resume of the applicant  
 resume = docx2txt.process("developer.resume.docx")
+
+# Store the resume in a variable
 print(resume)
+
+# Store the job description into a variable
+job_description = docx2txt.process("job_description.docx")
+
+# Print the job description
+print(job_description)
