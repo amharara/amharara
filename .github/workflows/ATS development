@@ -1,0 +1,9 @@
+#using applicant tracking system software to improve my resume 
+pip install docx2txt
+
+# Import the library
+import docx2txt
+
+# Load the resume of the applicant  
+resume = docx2txt.process("developer_resume.docx")
+print(resume)
